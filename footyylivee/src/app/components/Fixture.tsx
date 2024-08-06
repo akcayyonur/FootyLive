@@ -1,7 +1,7 @@
-import { matchesType } from '@/types'
 import React from 'react'
 import Competition from './Competition'
 import Matches from './Matches'
+import { matchesType } from '@/types'
 
 const Fixture = ({data} : {data:matchesType}) => {
   return (
