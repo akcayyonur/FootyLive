@@ -6,3 +6,8 @@
 body {
  background-color: #222831 ;
 }
+
+.bg-glow {
+    background: rgb(54,63,78);
+    box-shadow: 0 0 10px rgba(5, 232, 217, 0.812);
+}

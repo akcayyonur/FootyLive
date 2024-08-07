@@ -31,6 +31,51 @@ export const getTableBSA = async () => {
     
 }; 
 
+export const getTableCL = async () => {
+    const tableData = await fetch('https://api.football-data.org/v4/competitions/CL/standings', option);
+    const data = await tableData.json();
+    console.log(data)
+    return data;
+        
+    
+}; 
+
+export const getTablePD = async () => {
+    const tableData = await fetch('https://api.football-data.org/v4/competitions/PD/standings', option);
+    const data = await tableData.json();
+    console.log(data)
+    return data;
+        
+    
+}; 
+
+export const getTablePL = async () => {
+    const tableData = await fetch('https://api.football-data.org/v4/competitions/PL/standings', option);
+    const data = await tableData.json();
+    console.log(data)
+    return data;
+        
+    
+}; 
+
+export const getTableELC = async () => {
+    const tableData = await fetch('https://api.football-data.org/v4/competitions/ELC/standings', option);
+    const data = await tableData.json();
+    console.log(data)
+    return data;
+        
+    
+}; 
+
+export const getTableSA = async () => {
+    const tableData = await fetch('https://api.football-data.org/v4/competitions/SA/standings', option);
+    const data = await tableData.json();
+    console.log(data)
+    return data;
+        
+    
+}; 
+
 const todayDate = new Date();
 const yesterdayDate = new Date(todayDate.getTime());
 yesterdayDate.setDate(todayDate.getDate());

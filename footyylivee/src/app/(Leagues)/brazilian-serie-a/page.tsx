@@ -14,9 +14,8 @@ const Brasileiro = async () => {
         <div className="w-[600px]">
           {getBrasileiro.map((data) => (
             <div key={data.id} className="mb-4"> 
-              <Fixture data={data} />
+              <Fixture data={data} />a
             </div>
-          
           ))}
         </div>
         </div>
