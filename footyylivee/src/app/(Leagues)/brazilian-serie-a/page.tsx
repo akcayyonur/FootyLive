@@ -9,18 +9,23 @@ const Brasileiro = async () => {
 
   return (
     <section className="flex justify-between">
-      <div className="w-[600px]">
-        {getBrasileiro.map((data) => (
-          <div key={data.id} className="mb-4"> 
-            <Fixture data={data} />
-          </div>
-        ))}
-      </div>
-      <h1 className='ml-6 flex-auto-center'>Standings
+      <div>
+      <h1 className="text-md md:text-xl font-bold text-white">MATCHES</h1>
+        <div className="w-[600px]">
+          {getBrasileiro.map((data) => (
+            <div key={data.id} className="mb-4"> 
+              <Fixture data={data} />
+            </div>
+          
+          ))}
+        </div>
+        </div>
+      <div>
+      <h1 className="text-md md:text-xl font-bold text-white">STANDINGS</h1>
         <div className="w-full max-w-[700px] ml-6"> 
           <StandingsLayout data={tableDatas} />
         </div>
-      </h1>
+      </div>
     </section>
   );
 };

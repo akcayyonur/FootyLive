@@ -13,10 +13,10 @@ const Status = ({matchesList, matchesListFinished} : {matchesList:matchesType[] 
         <div className='flex space-x-4 mb-2 md:mb-4'>
             <button onClick={() => setStatusMatch("TODAY")} className={`px-2 
             py-1 text-primary text-xs md:text-sm rounded-md ${statusMatch ==='TODAY' ? 'bg-teal-400 font-semibold' :
-            'bg-slate-500 font-regular'} `}>Today</button>
+            'bg-slate-500 font-regular text-white'} `}>Today</button>
             <button onClick={() => setStatusMatch("WEEKLY")} className={`px-2  
             py-1 text-primary text-xs md:text-sm rounded-md ${statusMatch ==='WEEKLY' ? 'bg-teal-400 font-semibold' :
-            'bg-slate-500 font-regular'} `}>Weekly</button>
+            'bg-slate-500 font-regular text-white'} `}>Weekly</button>
         </div>
         <div className='w-full'>
             {statusMatch === "TODAY" ?  (

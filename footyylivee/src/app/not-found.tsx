@@ -13,8 +13,7 @@ export default function NotFound() {
         <p className='text-white'>We could not find the page you were looking for.</p>
         <Link href="/" passHref>
           <button className='text-teal-400 bg-[rgb(40,46,58)] px-4 py-2 rounded'>
-          <i className='bx bx-chevron-left bx-tada bx-flip-vertical text-teal-400 mr-2' style={{ fontSize: '24px' }}></i>
-            Back To FootyLive
+          <i className='bx bx-chevron-left bx-flashing text-teal-400 mr-2' style={{ fontSize: '24px' }}>Back To FootyLive</i>
           </button>
         </Link>
       </div>

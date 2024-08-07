@@ -18,7 +18,7 @@ const News = async () => {
               <div className="relative w-full h-[150px] mb-4 group">
                 <Image src={news?.urlToImage != null ? news?.urlToImage :  '/img/news-football.webp'} alt={news.title} fill className="object-cover rounded-md" />
                 <div className="absolute bottom-0 left-0 w-full p-2 z-10 bg-gradient-to-t from-zinc-900 to-transparent">
-                  <p className="font-semibold text-lg group-hover:text-teal-400">{news.title}</p>
+                  <p className="font-semibold text-lg group-hover:text-teal-400 text-white">{news.title}</p>
                 </div>
               </div>
             </a>
