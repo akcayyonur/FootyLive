@@ -14,7 +14,7 @@ const PremierLeague = async () => {
         <div className="w-[600px]">
           {getPremierLeague.map((data) => (
             <div key={data.id} className="mb-4"> 
-              <Fixture data={data} />a
+              <Fixture data={data} />
             </div>
           
           ))}

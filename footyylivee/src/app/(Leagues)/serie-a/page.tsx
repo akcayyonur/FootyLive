@@ -14,7 +14,7 @@ const SerieA = async () => {
         <div className="w-[600px]">
           {getSerieA.map((data) => (
             <div key={data.id} className="mb-4"> 
-              <Fixture data={data} />a
+              <Fixture data={data} />
             </div>
           
           ))}
