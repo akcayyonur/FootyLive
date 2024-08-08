@@ -4,8 +4,6 @@ import "./globals.css";
 import Navbar from "./components/Navbar";
 import Sidebar from "./components/Sidebar";
 
-
-
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -21,11 +19,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <main className="px-2 md:px-16 md:py-2 text-textPrimary" >
+        <main className="px-2 md:px-16 md:py-2 text-textPrimary">
           <Navbar />
-          <section className="flex space-x-8">
+          <section className="flex">
             <Sidebar />
-          {children}
+            <div className="flex-grow flex items-center justify-center">
+              {children}
+            </div>
           </section>
         </main>
       </body>
