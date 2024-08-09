@@ -21,6 +21,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/components/PageTransition/horizontal/PixelBackground.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/components/PageTransition/horizontal/PixelBackground.jsx", "src/app/components/Layout/Curve/index.jsx"],
   "exclude": ["node_modules"]
 }

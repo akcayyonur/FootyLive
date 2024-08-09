@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/Navbar";
 import Sidebar from "./components/Sidebar";
+import ClientLayout from "./components/ClientLayout"; // Import the client component
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,9 +24,7 @@ export default function RootLayout({
           <Navbar />
           <section className="flex">
             <Sidebar />
-            <div className="flex-grow flex items-center justify-center">
-              {children}
-            </div>
+            <ClientLayout>{children}</ClientLayout> {/* Use the client component */}
           </section>
         </main>
       </body>

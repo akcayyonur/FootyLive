@@ -16,7 +16,7 @@ export default async function Home() {
 
 
   const d = new Date()
-  const dateConvert = d.toLocaleDateString()
+  const dateConvert = d.toLocaleDateString();
 
   return (
     <section className="px-2 md:px-4 md:w-[900px] flex flex-col md:flex-row justify-between">

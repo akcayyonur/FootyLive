@@ -8,6 +8,7 @@ const Sidebar = () => {
         { id: 4, name: "Championship", href: "/championship", emblem: "/img/leagues/championship.webp" },
         { id: 5, name: "Brazilian Serie A", href: "/brazilian-serie-a", emblem: "/img/leagues/brazilian_serie_a.webp" },
         { id: 6, name: "Champions League", href: "/champions-league", emblem: "/img/leagues/champions_league.webp" },
+        { id: 7, name: "Eredivisie", href: "/eredivisie", emblem: "/img/leagues/eredivisie.webp" },
     ];
 
     return (
