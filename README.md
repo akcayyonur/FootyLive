@@ -80,51 +80,6 @@ Before you begin, ensure you have the following installed:
    
    Navigate to [http://localhost:3000](http://localhost:3000)
 
-## 📁 Project Structure
-
-```
-footyylivee/
-├── public/
-│   ├── img/
-│   │   └── leagues/          # League logos
-│   ├── footylive.png         # App logo
-│   └── ghost-img.png         # 404 page image
-├── src/
-│   ├── app/
-│   │   ├── (Leagues)/        # League-specific pages
-│   │   │   ├── premier-league/
-│   │   │   ├── la-liga/
-│   │   │   ├── serie-a/
-│   │   │   ├── championship/
-│   │   │   ├── brazilian-serie-a/
-│   │   │   ├── champions-league/
-│   │   │   └── eredivisie/
-│   │   ├── components/       # React components
-│   │   │   ├── ClientLayout.tsx
-│   │   │   ├── Competition.tsx
-│   │   │   ├── Fixture.tsx
-│   │   │   ├── LinkSide.tsx
-│   │   │   ├── Matches.tsx
-│   │   │   ├── Navbar.tsx
-│   │   │   ├── News.tsx
-│   │   │   ├── Sidebar.tsx
-│   │   │   ├── StandingsLayout.tsx
-│   │   │   └── Status.tsx
-│   │   ├── globals.css
-│   │   ├── layout.tsx
-│   │   ├── page.tsx
-│   │   └── not-found.tsx
-│   ├── library/
-│   │   └── index.ts          # API functions
-│   ├── styles/
-│   │   └── floaty.css        # Custom animations
-│   └── types.ts              # TypeScript type definitions
-├── .env.local                # Environment variables (create this)
-├── next.config.mjs
-├── package.json
-├── tailwind.config.ts
-└── tsconfig.json
-```
 
 ## 🎨 Features Breakdown
 
@@ -237,9 +192,6 @@ This project is licensed under the MIT License.
 - [Next.js](https://nextjs.org/) for the amazing framework
 - [Vercel](https://vercel.com/) for hosting
 
-## 📧 Support
-
-For support, email your-email@example.com or open an issue in the GitHub repository.
 
 ---
 
