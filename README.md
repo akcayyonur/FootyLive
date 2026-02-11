@@ -145,45 +145,9 @@ npm run start
 - `npm run start` - Start production server
 - `npm run lint` - Run ESLint
 
-## 🎨 Customization
-
-### Adding New Leagues
-
-1. Add league info to `Sidebar.tsx`:
-   ```typescript
-   { id: 8, name: "Your League", href: "/your-league", emblem: "/img/leagues/your_league.webp" }
-   ```
-
-2. Create a new page in `src/app/(Leagues)/your-league/page.tsx`
-
-3. Add corresponding API function in `src/library/index.ts`
-
-### Styling
-
-The app uses Tailwind CSS with a custom color scheme:
-- Background: `#222831`
-- Primary accent: Teal (`#14b8a6`)
-- Component background: `rgb(40,46,58)`
-
-Modify `tailwind.config.ts` and `globals.css` to customize the theme.
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-1. Fork the project
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
 ## 📄 License
 
 This project is licensed under the MIT License.
-
-## 👤 Author
-
-**Onur Akçay**
 
 ## 🙏 Acknowledgments
 
